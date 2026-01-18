@@ -1,0 +1,64 @@
+name: flutter_social_network
+description: A new Flutter Social Network application.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.13.4 <3.0.0"
+dependencies:
+  shared_preferences: ^2.0.6
+  firebase_core: ^1.5.0
+  firebase_auth: ^3.0.2
+  cloud_firestore: ^2.5.0
+  image_picker: ^0.8.3+2
+  firebase_storage: ^10.0.2
+  progress_dialog:
+    git:
+      url: https://github.com/mostafaAbdelazim/progress_dialog.git
+  provider: ^5.0.0
+  url_launcher: ^6.0.2
+  intl: ^0.17.0
+  cached_network_image: ^3.1.0
+  uuid: ^3.0.4
+  video_thumbnail: ^0.4.3
+  path_provider: ^2.0.2
+  photo_view: ^0.12.0
+  flutter_facebook_auth: ^3.5.0+1
+  permission_handler: ^8.1.4+2
+  http: ^0.13.3
+  smooth_page_indicator: ^0.3.0-nullsafety.0
+  firebase_messaging: ^10.0.5
+  intl_phone_number_input: ^0.7.0+2
+  pin_code_fields: ^7.3.0
+  story_view: ^0.13.1
+  flutter_reaction_button: ^1.0.8
+  flutter_google_places: ^0.3.0
+  google_maps_webservice: ^0.0.20-nullsafety.5
+  share: ^2.0.4
+  easy_localization: ^3.0.0
+  flutter_native_image: ^0.0.6+1
+  video_compress: ^3.1.0
+  flutter_sound: ^8.3.9
+  video_player: ^2.1.14
+  flutter:
+    sdk: flutter
+  the_apple_sign_in: ^1.1.1
+  cupertino_icons: ^1.0.3
+dependency_overrides:
+  flutter_google_places:
+    git:
+      url: https://github.com/hoc081098/flutter_google_places.git
+      ref: 7b6c2aa2053131142c0e48639823d24f312d00c1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.1
+
+flutter_icons:
+  android: false
+  ios: true
+  image_path: 'assets/images/app_logo.png'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/translations/
